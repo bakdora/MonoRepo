@@ -1,0 +1,15 @@
+{
+  "name": "test-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "workspaces": [
+    "libraries/*"
+  ],
+  "private": "true",
+    "scripts": {
+    "install": "yarn  --ignore-scripts",
+    "test": "yarn test:libraries",
+    "test:libraries": "yarn test --workspaces"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "package-b",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "express": "^4.18.2",
+    "package-a": "3.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "start": "node index.js"
+  }
+}
