@@ -5,6 +5,7 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "dev": "node index.js"
   }
 }

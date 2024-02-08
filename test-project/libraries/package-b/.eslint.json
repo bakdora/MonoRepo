@@ -1,0 +1,26 @@
+{
+  "parser": "@babel/eslint-parser",
+  
+  "extends": [
+  
+    "eslint-config-prettier"
+  ],
+  "rules": {
+    "no-unused-vars": [
+      "error",
+      {
+        "argsIgnorePattern": "^_"
+      }
+    ],
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "devDependencies": [
+          "src/tests/**"
+        ]
+      }
+    ],
+    "import/extensions": 0,
+    "no-underscore-dangle": 0
+  }
+}

@@ -11,5 +11,6 @@ app.get('/', (req, res) => {
 
 
 app.listen(port, () => {
+    console.log('some more logs to see it working')
     console.log(`Package B app listening on port ${port}`)
 })
