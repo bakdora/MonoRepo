@@ -1,0 +1,11 @@
+name: Bump version
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  semantic-release:
+    uses: ingka-group-digital/workflows/.github/workflows/semantic-release.yml@v2
+    # no mandatory inputs
+    # no mandatory secrets
